@@ -1,0 +1,42 @@
+h1 {
+  font-family: Helvetica;
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg")
+  /* the following doesn't render on the webpage
+  background-image: url("./resources/images/pattern.jpeg");
+  Why doesn't it work? Is the local pathway incorrect?*/
+}
+
+h2 {
+  font-family: Helvetica;
+  font-size: 34px;
+  font-weight: bold;
+  color; white;
+}
+
+
+.brushes h2 {
+  background-color: mediumspringgreen;
+}
+
+.frames h2 {
+  background-color: lightcoral;
+}
+
+.paint h2 {
+  background-color: skyblue;
+}
+
+strong {
+  color: blue;
+}
+
+.price {
+   font-family: Helvetica;
+   font-weight: bold;
+   color: blue;
+
+   /*Why doesn't this work? The p elements containted within the class="price" should become blue, bold, and Helvetica?*/
